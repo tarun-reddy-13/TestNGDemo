@@ -2,7 +2,12 @@ package listeners;
 
 import org.testng.Assert;
 import org.testng.SkipException;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
+
+
+// @Listeners(listeners.MyListener.class) can also be configured using XML
+//configured listener in listener_config_testng.xml file
 
 public class TestListenerDemo {
     @Test
